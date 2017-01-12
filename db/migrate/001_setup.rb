@@ -288,13 +288,13 @@ class Setup < ActiveRecord::Migration
     Permission.create :controller => "versions", :action => "destroy_file", :description => "button_delete", :sort => 1322
 
     # create default administrator account
-    user = User.new :firstname => "Redmine",
+    user = User.new :firstname => "BizR Admin",
                     :lastname => "Admin",
-                    :mail => "admin@example.net",
+                    :mail => "hungftv@gmail.com", :language => "en",
                     :mail_notification => true,
                     :status => 1
-    user.login = 'admin'
-    user.hashed_password = "d033e22ae348aeb5660fc2140aec35850c4da997"
+    user.login = 'bizr'
+    user.hashed_password = "e7eec152835fb7ebab4a3701d2327247b9403cc3"
     user.admin = true
     user.save
 
