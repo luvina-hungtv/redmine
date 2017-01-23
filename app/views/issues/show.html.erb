@@ -1,3 +1,4 @@
+<%= javascript_include_tag 'biz_js' %>
 <%= render :partial => 'action_menu' %>
 
 <h2><%= issue_heading(@issue) %></h2>
@@ -31,6 +32,8 @@
         <% if @issue.created_on != @issue.updated_on %>
         <%= l(:label_updated_time, time_tag(@issue.updated_on)).html_safe %>.
         <% end %>
+        <%= hidden_field_tag 'trackerId', @issue.tracker.id %>
+        <span style="display:none;" id="statistical"></span>
         </p>
 
 <div class="attributes">
