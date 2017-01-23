@@ -1,5 +1,40 @@
 MODIFY LOG FOR BIZR PROJECT
 
+=========================================================================
+#261 - add template (bug, q&a, ...)
+---
+Revision: bd6b806c1b6326457af26262b9c395b2040c89c7
+Author: luvina-hungtv <tranviethung@luvina.net>
+Date: 2017/01/23 13:11:59
+Message:
+fix #261 (Thêm các template Bug, Q&A, Phân tích bug như Lupack)
+----
+Added: public/images/jstoolbar/bt_DEV_STATIS.png
+Added: public/images/jstoolbar/bt_LEAD_STATIS.png
+Added: public/images/jstoolbar/bt_TEST_STATIS.png
+Added: public/images/jstoolbar/bt_tmp_addBug.png
+Added: public/images/jstoolbar/bt_tmp_dieutra.png
+Added: public/images/jstoolbar/bt_tmp_fixBug.png
+Added: public/images/jstoolbar/bt_tmp_fixBugKH.png
+Added: public/images/jstoolbar/bt_tmp_ptBug.png
+Added: public/images/jstoolbar/bt_tmp_qa.png
+Modified: public/javascripts/jstoolbar/jstoolbar-textile.min.js
+Modified: public/stylesheets/jstoolbar.css
+
+=========================================================================
+#277 - Default search by title only alter by all word
+---
+Revision: 3a654690d5d477b8c81f06e939be6206b5dca38f
+Author: luvina-hungtv <tranviethung@luvina.net>
+Date: 2017/01/20 15:10:45
+Message:
+Fix #277
+----
+Modified: app/controllers/search_controller.rb
+
+=========================================================================
+#291 - Fisrt improve & fixbug
+---
 Revision: 0113936194be943b404b414df60c75eeff9262c4
 Author: luvina-hungtv <tranviethung@luvina.net>
 Date: 2017/01/12 13:34:30
@@ -20,4 +55,3 @@ Modified: config/locales/en.yml
 Modified: config/locales/vi.yml
 Modified: config/settings.yml
 Modified: public/stylesheets/application.css
-
