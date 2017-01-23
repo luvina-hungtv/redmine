@@ -101,3 +101,39 @@
 .jstb_help {
     background-image: url(../images/help.png);
 }
+.jstb_sta_dev {
+	width: 35px !important;
+    background-image: url(../images/jstoolbar/bt_DEV_STATIS.png);
+}
+.jstb_sta_test {
+	width: 40px !important;
+    background-image: url(../images/jstoolbar/bt_TEST_STATIS.png);
+}
+.jstb_lead_note {
+	width: 45px !important;
+    background-image: url(../images/jstoolbar/bt_LEAD_STATIS.png);
+}
+.jstb_tmp_qa {
+	width: 37px !important;
+    background-image: url(../images/jstoolbar/bt_tmp_qa.png);
+}
+.jstb_tmp_addBug {
+	width: 55px !important;
+    background-image: url(../images/jstoolbar/bt_tmp_addBug.png);
+}
+.jstb_tmp_fixBug {
+	width: 50px !important;
+    background-image: url(../images/jstoolbar/bt_tmp_fixBug.png);
+}
+.jstb_tmp_fixBugKH {
+	width: 66px !important;
+    background-image: url(../images/jstoolbar/bt_tmp_fixBugKH.png);
+}
+.jstb_tmp_ptBug {
+	width: 60px !important;
+    background-image: url(../images/jstoolbar/bt_tmp_ptBug.png);
+}
+.jstb_tmp_dieutra {
+	width: 52px !important;
+    background-image: url(../images/jstoolbar/bt_tmp_dieutra.png);
+}
