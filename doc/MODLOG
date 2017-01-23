@@ -1,6 +1,35 @@
 MODIFY LOG FOR BIZR PROJECT
 
 =========================================================================
+#334 - make scroll to top button
+---
+Revision: 86d3fae91b7e2c1c4400df3e6a22e5076430b908
+Author: luvina-hungtv <tranviethung@luvina.net>
+Date: 2017/01/23 17:39:41
+Message:
+mod #334 - make scroll to top button
+
+
+----
+Modified: app/views/layouts/base.html.erb
+Modified: doc/MODLOG
+Added: public/images/to_top.png
+Modified: public/javascripts/application.js
+Modified: public/stylesheets/application.css
+
+=========================================================================
+#260 - Them thong ke chat luong
+---
+Revision: 69acdad94fcea590814da411d5032d27b80e4e57
+Author: luvina-hungtv, luvina-thongtv
+Date: 2017/01/23 17:34:19
+Message: Fix #260 - Them thong ke chat luong
+
+----
+Modified: app/views/issues/show.html.erb
+Added: public/javascripts/biz_js.js
+
+=========================================================================
 #261 - add template (bug, q&a, ...)
 ---
 Revision: bd6b806c1b6326457af26262b9c395b2040c89c7
