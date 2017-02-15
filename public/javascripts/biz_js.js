@@ -9,7 +9,7 @@ function countTracker() {
 
   var trackerId = $("#trackerId").val();
   var staText = [];
-  if ($.inArray(trackerId, ticketAllow) > 0) {
+  if ($.inArray(trackerId, ticketAllow) >= 0) {
     $.each(trackerCount, function(key, value) {
       //var c = $("#issue_tree").find("tr.tracker-" + key).length;//include Rejected status
       var c = countValidStatus(key);//ignore Rejected status
