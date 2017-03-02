@@ -428,7 +428,7 @@ div#issue-changesets div.changeset { padding: 4px;}
 div#issue-changesets div.changeset { border-bottom: 1px solid #ddd; }
 div#issue-changesets p { margin-top: 0; margin-bottom: 1em;}
 
-div.journal {overflow:auto;}
+div.journal {overflow:auto;border-bottom: 1px solid #e4e6e8;}
 div.journal.private-notes {border-left:2px solid #d22; padding-left:4px; margin-left:-6px;}
 div.journal ul.details {color:#959595; margin-bottom: 1.5em;}
 div.journal ul.details a {color:#70A7CD;}

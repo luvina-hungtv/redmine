@@ -68,6 +68,7 @@
     end
   end
 end %>
+<hr />
 <%= render_custom_fields_rows(@issue) %>
 <%= call_hook(:view_issues_show_details_bottom, :issue => @issue) %>
 </div>

@@ -77,7 +77,7 @@ per_page_options:
 search_results_per_page:
   default: 10
 mail_from:
-  default: redmine@example.net
+  default: pro-kaigo_odc@luvina.net
 bcc_recipients:
   default: 1
 plain_text_mail:
@@ -95,7 +95,7 @@ force_default_language_for_anonymous:
 force_default_language_for_loggedin:
   default: 0
 host_name:
-  default: localhost:3000
+  default: 10.0.0.111
 protocol:
   default: http
   security_notifications: 1

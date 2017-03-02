@@ -6,7 +6,7 @@ en:
       # Use the strftime parameters for formats.
       # When no format has been given, it uses default.
       # You can provide other formats here if you like!
-      default: "%m/%d/%Y"
+      default: "%Y/%m/%d"
       short: "%b %d"
       long: "%B %d, %Y"
 
@@ -140,9 +140,10 @@ en:
   general_lang_name: 'English'
   general_csv_separator: ','
   general_csv_decimal_separator: '.'
-  general_csv_encoding: ISO-8859-1
-  general_pdf_fontname: freesans
-  general_pdf_monospaced_fontname: freemono
+  general_csv_encoding: UTF-8
+  general_pdf_fontname: DejaVuSans
+  general_pdf_monospaced_fontname: DejaVuSans
+  general_pdf_encoding: UTF-8
   general_first_day_of_week: '7'
 
   notice_account_updated: Account was successfully updated.
