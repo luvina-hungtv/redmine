@@ -1,0 +1,23 @@
+== Redmine modlog
+
+Redmine - project management software
+Copyright (C) 2006-2017  Jean-Philippe Lang
+http://www.redmine.org/
+
+Modify log by hungftv
+https://github.com/luvina-hungtv/redmine/commits/biz-lastest
+
+== 2017/03/02 - merge from biz_redmine to biz-lastest
+* Create branch from tag 3.3.2
+* Add config of biz & db model
+* Fix #277: Default search by title only alter for all word
+* Fix #261: Add templates Bug, Q&A, Statistic, Analysis bugs, ...
+* Fix #291: Improve of:
+  1. Encoding CSV, PDF (en.yml)
+  2. Default date format (vi.yml)
+  3. Default mail from (settings.yml)
+  4. Add hr between fix fileds and custom fields in issue (show and form)
+  5. Add css odd and even in history issue (reply)
+* Fix #334: make scroll to top button
+* Fix #260: Statistic quality of task
+* Fix #544: Default wiki page is index (alter edit page)
