@@ -119,29 +119,33 @@
 }
 .jstb_tmp_addBug {
 	width: 53px !important;
-    background-image: url(../images/jstoolbar/bt_tmp_addBug.png);
+  background-image: url(../images/jstoolbar/bt_tmp_addBug.png);
 }
 .jstb_tmp_ReFixbug {
 	width: 62px !important;
-    background-image: url(../images/jstoolbar/bt_tmp_ReFixbug.png);
+  background-image: url(../images/jstoolbar/bt_tmp_ReFixbug.png);
+}
+.jstb_tmp_ReIgnore {
+	width: 56px !important;
+  background-image: url(../images/jstoolbar/bt_tmp_ReIgnore.png);
 }
 .jstb_tmp_ReConfirm {
 	width: 68px !important;
-    background-image: url(../images/jstoolbar/bt_tmp_ReConfirm.png);
+  background-image: url(../images/jstoolbar/bt_tmp_ReConfirm.png);
 }
 .jstb_tmp_ReFixTicket {
 	width: 74px !important;
-    background-image: url(../images/jstoolbar/bt_tmp_ReFixTicket.png);
+  background-image: url(../images/jstoolbar/bt_tmp_ReFixTicket.png);
 }
 .jstb_tmp_PhantichBug {
 	width: 80px !important;
-    background-image: url(../images/jstoolbar/bt_tmp_PhantichBug.png);
+  background-image: url(../images/jstoolbar/bt_tmp_PhantichBug.png);
 }
 .jstb_tmp_ReDieuTra {
 	width: 68px !important;
-    background-image: url(../images/jstoolbar/bt_tmp_ReDieuTra.png);
+  background-image: url(../images/jstoolbar/bt_tmp_ReDieuTra.png);
 }
 .jstb_tmp_addBugReview {
 	width: 92px !important;
-    background-image: url(../images/jstoolbar/bt_tmp_addBugReview.png);
+  background-image: url(../images/jstoolbar/bt_tmp_addBugReview.png);
 }
